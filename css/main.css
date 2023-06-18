@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+@font-face {
+    font-family: notbold;
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+  }
+@font-face {
+    font-family: isbold ;
+    src: url(HankenGrotesk-Bold.ttf);
+}
+.parent{
+    position:absolute;
+    top:200px;
+    left: 500px;
+    
+}
+.child{
+    position:absolute;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-image: linear-gradient(45deg,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    border-radius: 10%;
+}
+#result{
+    position:relative;
+    color:hsl(241, 100%, 89%);
+    top:20px;
+    font-family:isbold ;
+    font-size: 18px;
+    
+}
+.circle{
+    position:relative;
+    top:50px;
+    left :76px;
+    background-image: linear-gradient(45deg,hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#Fcircle{
+    position: relative;
+    top: 40px;
+    color: hsl(221, 100%, 96%);
+    font-family: isbold;
+    font-size: 50px;
+}
+#Scircle{
+    position:relative;
+    top: 39px;
+    color: hsla(241, 100%, 89%, 0.559);
+    font-family: notbold;
+    font-size:16px;
+}
+.great{
+    position: relative;
+    top: 60px;
+    color:  hsl(0, 0%, 100%);
+    font-family: isbold;
+    font-size: 26px;
+}
+#parg{
+    position:relative ;
+    right: 20px;
+    top:70px;
+    color:hsla(241, 100%, 89%, 0.918);
+    font-family: notbold;
+}
+.secondChild{
+    position:relative;
+    width: 250px;
+    height: 400px;
+    left: 330px;
+    top: 40px;
+    color: hsl(224, 30%, 27%);
+    
+}
+#sum{
+    position: relative;
+    font-family: isbold;
+    font-size: 20px;
+}
+li{ 
+    position: relative;
+    font-family: notbold;
+    font-size: 16px;
+    margin: 25px;
+    line-height: 210%;
+     
+    
+   
+}
+svg{
+    position: relative;
+    height: 16px;
+    width: 16px;
+    right: 10px;
+}
+
+#reac{
+    color: hsl(0, 100%, 67%);
+    
+    
+}
+#memo{
+    color: hsl(39, 100%, 56%);
+}
+#ver{
+    
+    color: hsl(166, 100%, 37%);
+}
+#vis{
+
+    color: hsl(234, 85%, 45%);    
+}
+.fNum{
+    position: relative;
+    letter-spacing: 0.5px;
+    left:90px;
+    color: hsl(224, 30%, 27%);
+}
+.sNum{
+    color:hsla(224, 30%, 27%, 0.445);
+}
+.tNum{
+    position: relative;
+    letter-spacing: 0.5px;
+    left:96px;
+    color: hsl(224, 30%, 27%);
+}
+.foNum{
+    position: relative;
+    letter-spacing: 0.5px;
+    left:110px;
+    color: hsl(224, 30%, 27%);
+}
+.fvNum{
+    position: relative;
+    letter-spacing: 0.5px;
+    left: 110px;;
+    color:hsl(224, 30%, 27%);
+}
+.button{
+	width:105%;
+	height:40px;
+	border-radius:40px;
+	background:hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-family: notbold;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	font-size:1em;
+	font-weight:600;
+	
+}
+.button:hover {
+ background: linear-gradient(45deg,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+}
